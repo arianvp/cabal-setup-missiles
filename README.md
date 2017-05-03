@@ -1,4 +1,9 @@
 # I am a bug
+```
+╰─$ cabal --version
+cabal-install version 1.24.0.0
+compiled using version 1.24.0.0 of the Cabal library
+```
 
 ## how to reproduce me on cabal new-build
 1. Make sure `acme-missiles` is not installed globally or in `~/.cabal` or `~/.ghc`
