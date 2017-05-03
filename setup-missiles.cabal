@@ -1,0 +1,16 @@
+-- this cabal package makes sure to launch some nukes during setup
+name: setup-missiles
+version: 0.0.1
+build-type: Custom
+cabal-version: >= 1.10
+custom-setup
+  setup-depends: base >=4.9 && <5, acme-missiles, Cabal
+executable setup-missiles
+  main-is:
+    Main.hs
+  hs-source-dirs:
+    src
+  build-depends:
+    base >=4.9 && <5
+  default-language:
+    Haskell2010
